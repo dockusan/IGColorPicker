@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0008831D6E65C3D20986B68E265C0485 /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0AC9C683EAEB80B5FFEC7CD90568BA /* DefaultValues.swift */; };
+		02CBD2FD59A0A8C60D524A0E54B4710B /* ColorPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3787E176E15EC74C06E45B38714E35EB /* ColorPickerCell.swift */; };
+		08714C1067D3D7D197B2EA10DD379DE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556076667A848081B6C4191C7384F7C /* Foundation.framework */; };
+		0B847A85D38B83836D07FD61D4FB98C0 /* Pods-IGColorPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 169A594DBF954A848AFE16039436C6A8 /* Pods-IGColorPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22038AF267F2E16F7D57A0DAB542984A /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B877590311162BC2E6C3CDD526475B /* M13CheckboxExpandController.swift */; };
+		28E42D54764A6BB85C0B593079DCA4B9 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D70B5DAA057A480ACDD7A209C1A693A /* M13CheckboxBounceController.swift */; };
+		2CB8349972F98533748831AD7DD93892 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6A6AE4C2DB84789467CC3F006E297 /* M13CheckboxRadioPathGenerator.swift */; };
+		3644B06A09BF1281EF71972C050DFAB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B15E16A0F33A0958F88DE922DCE5FD /* CoreGraphics.framework */; };
+		382ED280BF265A992F3713DDC4BAD266 /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9539754914803037E32A5C1A991A2 /* M13CheckboxPathGenerator.swift */; };
+		389234AA4C3D563AE56BF950C6B17C6F /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5503F6572C582B6D6EDF21290D8A377D /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E223236EDD3292AE485AE55674166E2 /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7FAA4595C66B207D05374A9808341 /* M13CheckboxFadeController.swift */; };
+		3E38C3DD743DEA2735A48DB40A9588A5 /* IGColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C5D923D4B137351E2F291867C1D43 /* IGColorPicker-dummy.m */; };
+		48362798FA6DDA0D2384DCF2818D988E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF82CD4CB396157D47743C368E3C2B /* UIColor+Extension.swift */; };
+		517B5CFF82A23982E95D55C122584389 /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E5C6921520792C52CCA2DCC4153B3 /* M13CheckboxDisclosurePathGenerator.swift */; };
+		593609FC6C449B4533AEDD4579D3E80B /* ColorPickerViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD9EBB9EEC23119122E3D2D8005DAA /* ColorPickerViewDelegateFlowLayout.swift */; };
+		646C7F19B497C4A24184F5E9AB9E3166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556076667A848081B6C4191C7384F7C /* Foundation.framework */; };
+		7B33659609D8B21AE031463284BF6E34 /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6575A78D5803E324BBD169EDD38485C6 /* M13CheckboxDotController.swift */; };
+		876F7C11134DEE7D43A8F114BE41A6B5 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870BA1056841EBBC7D03C303F8E37B2 /* M13Checkbox.swift */; };
+		959AE01E37A43F7D95312EE44F5107FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBFAF4C313D8729E56CBDF62618A7CC /* UIKit.framework */; };
+		9AAD6A283CE3A1F236BF439ACE4EE541 /* Pods-IGColorPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCA0A8D95454580AF6E70F215AC5B /* Pods-IGColorPicker_Example-dummy.m */; };
+		9B59065FC34036DD48CDD3234CE1D17D /* Pods-IGColorPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CA917E9C95CE729823C3A91F25E094 /* Pods-IGColorPicker_Tests-dummy.m */; };
+		A518827199E74C13A1947BD7F391EB95 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189D045F24F0526DC3CC97481E3ADDD /* M13CheckboxAddRemovePathGenerator.swift */; };
+		A631793D2A6FD4128A53441CB70E66F3 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB0AD4DB24182438B7C6E276CDC744 /* M13CheckboxController.swift */; };
+		A78876960FD123B624B5BAE90FB3D362 /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C74BA2D94BC577D098825CDC64BB69 /* M13Checkbox-dummy.m */; };
+		A8E3E836E0939AD9A937EB78BCDEDF28 /* ColorPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C2E142504895F8D5B49EAC690BA03 /* ColorPickerViewDelegate.swift */; };
+		A9774E979BBC7F92F5ED19D1FFECA3E2 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2DA4808EE89482FFB8D266729E2D80 /* M13Checkbox+IB.swift */; };
+		AD922E4B593B70D9ADBE0A55C2833960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556076667A848081B6C4191C7384F7C /* Foundation.framework */; };
+		B080D882C947FA7C6CA67E47F33ADC47 /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB66DF709C1A716F112A22BF59F3A8F7 /* M13CheckboxStrokeController.swift */; };
+		B18CE117A9CB1B05D8611076A7C38495 /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE340E874CCAC8D19CC959E820C7C81 /* M13CheckboxFillController.swift */; };
+		C38F13A04A0EA783D0D7ADC37273E9FB /* Pods-IGColorPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB3E6107BE9AE389E39742EAD10FBCB /* Pods-IGColorPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39EFC9FB9F2538F5AF64A49676373C4 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F16785EA3D6E3DE0C61ED977DD1207 /* M13CheckboxAnimationGenerator.swift */; };
+		C99BAA6308A8B180C77459C5C393C8A1 /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2864DF132BB9C7760C900151419950F0 /* M13CheckboxSpiralController.swift */; };
+		D7EA781ADBCB63C915A8FF8E829C2DD4 /* IGColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9D931421A3BC3972210EBCD03F2C77 /* IGColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98E62694AF71E609107DCFB81692F23 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D861DFFFB3E5F2F69205F4205F1C14 /* M13CheckboxGestureRecognizer.swift */; };
+		DB02CFE6662BDB7A99B20DA7D87E7613 /* M13Checkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05C6C07A481A55753BDE38203445188 /* M13Checkbox.framework */; };
+		DEAB41214C1B88D8FEBFEAE2ACE73E3B /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DE99C581E3F1360DE6E1900D836EF /* M13CheckboxFlatController.swift */; };
+		E8727057CC5D23CA1A4B4BD2407779F6 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E845A393C3E5E0B4DAE5943528F52BE6 /* ColorPickerView.swift */; };
+		F0975E49C0E6E1F8D6D4B3AFFB84C0A4 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31BE5CE36626D19AF2FB66660940A2B /* M13CheckboxCheckPathGenerator.swift */; };
+		F8B57963461A97260E22425AF06B178B /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB8A47A271F44AE9A9ADF04FB334B5 /* DefaultValues.swift */; };
+		FC6526A8BF6CF34A3E96958EA26D0E99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556076667A848081B6C4191C7384F7C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AB493AC80FD34D41DF03FFE3899C2B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7111E54EAE43E89F451A75076C3525ED;
+			remoteInfo = M13Checkbox;
+		};
+		52D4F03AD89F223B1A1C2968C233D3FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D8D2751C5F0C2E845398BA4D7969D44;
+			remoteInfo = IGColorPicker;
+		};
+		D1A0FE786CC802975A018D9A68412AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7111E54EAE43E89F451A75076C3525ED;
+			remoteInfo = M13Checkbox;
+		};
+		D6A6C06A9D8EF7DE8AC129F941840FC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC38B18658B0A63612B59F356AE15D2;
+			remoteInfo = "Pods-IGColorPicker_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029E51C7B008235F85D20C14A5E5187B /* M13Checkbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.debug.xcconfig; sourceTree = "<group>"; };
+		04F16785EA3D6E3DE0C61ED977DD1207 /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		0B1E5C6921520792C52CCA2DCC4153B3 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		0F4F9DF2D0DFC6B0B06B7703AD99463C /* M13Checkbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.release.xcconfig; sourceTree = "<group>"; };
+		148CADF69366AEF7394A30BA206FF438 /* Pods_IGColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IGColorPicker_Example.framework; path = "Pods-IGColorPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169A594DBF954A848AFE16039436C6A8 /* Pods-IGColorPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IGColorPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		16CA917E9C95CE729823C3A91F25E094 /* Pods-IGColorPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IGColorPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		1B3936D468BFC88B4C895D9D7593B054 /* Pods-IGColorPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IGColorPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B8BF24B33FC3BE485B3677FF1592380 /* Pods-IGColorPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IGColorPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		26C74BA2D94BC577D098825CDC64BB69 /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		2864DF132BB9C7760C900151419950F0 /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		2D70B5DAA057A480ACDD7A209C1A693A /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		33D7FAA4595C66B207D05374A9808341 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		369464E2D560E1D8403DC62F7F9F96F1 /* IGColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGColorPicker.framework; path = IGColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3787E176E15EC74C06E45B38714E35EB /* ColorPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorPickerCell.swift; sourceTree = "<group>"; };
+		38C6A6AE4C2DB84789467CC3F006E297 /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		3C2DA4808EE89482FFB8D266729E2D80 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		44E8A3E294B09A2006BCFE6A53715D0C /* Pods-IGColorPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IGColorPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45FD9EBB9EEC23119122E3D2D8005DAA /* ColorPickerViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorPickerViewDelegateFlowLayout.swift; sourceTree = "<group>"; };
+		4870BA1056841EBBC7D03C303F8E37B2 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		5503F6572C582B6D6EDF21290D8A377D /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		5569F1E8EF630F043B0248F1402DAC1A /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		589E2AA1B379AB303429F70C88577CD6 /* Pods-IGColorPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IGColorPicker_Example.modulemap"; sourceTree = "<group>"; };
+		5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13Checkbox.framework; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9D931421A3BC3972210EBCD03F2C77 /* IGColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		6019D00982FE383179F16E8E5FEE1F9D /* IGColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGColorPicker.release.xcconfig; sourceTree = "<group>"; };
+		6575A78D5803E324BBD169EDD38485C6 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		658DE99C581E3F1360DE6E1900D836EF /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		67BBCA0A8D95454580AF6E70F215AC5B /* Pods-IGColorPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IGColorPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		694EBA5CF334F1859C9418185F2E2A13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6980224938332736B8D3873FF4846417 /* IGColorPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IGColorPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		69DBB375D55D608BBBCA07053439A04B /* Pods-IGColorPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IGColorPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		71CB8A47A271F44AE9A9ADF04FB334B5 /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = Sources/DefaultValues.swift; sourceTree = "<group>"; };
+		75D861DFFFB3E5F2F69205F4205F1C14 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		7DBFAF4C313D8729E56CBDF62618A7CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		807DFB8253068B7EF0A9140826F03C8E /* Pods-IGColorPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IGColorPicker_Example-Info.plist"; sourceTree = "<group>"; };
+		92E06096EFD53AFAE4B04E5E3E8928DE /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		98B877590311162BC2E6C3CDD526475B /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E252EE52927EB5A07D59F61D6DB923F /* Pods-IGColorPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IGColorPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A2DB0AD4DB24182438B7C6E276CDC744 /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		A2EF82CD4CB396157D47743C368E3C2B /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A55C5D923D4B137351E2F291867C1D43 /* IGColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGColorPicker-dummy.m"; sourceTree = "<group>"; };
+		A870EEBF93C41E28472D8B0696ECDC93 /* M13Checkbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "M13Checkbox-Info.plist"; sourceTree = "<group>"; };
+		ACDE6EBCDADC5D892E50B127EFA45AE5 /* IGColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IGColorPicker-Info.plist"; sourceTree = "<group>"; };
+		B05C6C07A481A55753BDE38203445188 /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16C2E142504895F8D5B49EAC690BA03 /* ColorPickerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorPickerViewDelegate.swift; sourceTree = "<group>"; };
+		B1B15E16A0F33A0958F88DE922DCE5FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B556076667A848081B6C4191C7384F7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B955E723F3B550252EC087DFED8DE9F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BC0AC9C683EAEB80B5FFEC7CD90568BA /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = IGColorPicker/Classes/DefaultValues.swift; sourceTree = "<group>"; };
+		BED560975B5B908D72214D36EA263EC3 /* IGColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		BEF92A8ED3DF6CE51B232204F48ABA57 /* Pods-IGColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IGColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0AFF213B9AA79693446B01AF2982573 /* Pods-IGColorPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IGColorPicker_Tests-Info.plist"; sourceTree = "<group>"; };
+		C7CDD800C7083576A6B09964F8E92816 /* Pods_IGColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IGColorPicker_Tests.framework; path = "Pods-IGColorPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB3E6107BE9AE389E39742EAD10FBCB /* Pods-IGColorPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IGColorPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC42B441D03B5332466BE7D7CC0D24E2 /* IGColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IGColorPicker.modulemap; sourceTree = "<group>"; };
+		DEE340E874CCAC8D19CC959E820C7C81 /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		E1880F5AC89C4F82C63AD3B61C9A9BA0 /* IGColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGColorPicker.debug.xcconfig; sourceTree = "<group>"; };
+		E1B20D3C421B1D262C9D2E4041F76A73 /* Pods-IGColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IGColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E845A393C3E5E0B4DAE5943528F52BE6 /* ColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		EB66DF709C1A716F112A22BF59F3A8F7 /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		EDD9BC2A83DAC03910AFBA673EAC85C9 /* Pods-IGColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IGColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F189D045F24F0526DC3CC97481E3ADDD /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		F31BE5CE36626D19AF2FB66660940A2B /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		F3B9539754914803037E32A5C1A991A2 /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		F7AE49AD8CE6BB7B9ABE3E2144FA1E85 /* Pods-IGColorPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IGColorPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD387972C9425E540A724EDCF5B9181C /* Pods-IGColorPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IGColorPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E4B5F585CF6979BD9E8E67C9B74E0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD922E4B593B70D9ADBE0A55C2833960 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E99109E099441024B2996887E606B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08714C1067D3D7D197B2EA10DD379DE1 /* Foundation.framework in Frameworks */,
+				DB02CFE6662BDB7A99B20DA7D87E7613 /* M13Checkbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5AF1AE7792A9FED8A3DADD28987BAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3644B06A09BF1281EF71972C050DFAB6 /* CoreGraphics.framework in Frameworks */,
+				646C7F19B497C4A24184F5E9AB9E3166 /* Foundation.framework in Frameworks */,
+				959AE01E37A43F7D95312EE44F5107FE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49C54951990120B795B68569B24301D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6526A8BF6CF34A3E96958EA26D0E99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098B0AE1C7D75BC630A770F1D4FB037D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D34017AF12EE050875EBB41B5BADD5A8 /* Pods-IGColorPicker_Example */,
+				7D5F3AE416513789B6D3DBA0EA5082E0 /* Pods-IGColorPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0BB682A9E3AEC53A1F57317EAE3D32E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B05C6C07A481A55753BDE38203445188 /* M13Checkbox.framework */,
+				204EEF6440DAA5E8D4CE9B1EE88765FD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		204EEF6440DAA5E8D4CE9B1EE88765FD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1B15E16A0F33A0958F88DE922DCE5FD /* CoreGraphics.framework */,
+				B556076667A848081B6C4191C7384F7C /* Foundation.framework */,
+				7DBFAF4C313D8729E56CBDF62618A7CC /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		35727169B4910946180EC88AB462E3A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92E06096EFD53AFAE4B04E5E3E8928DE /* M13Checkbox.modulemap */,
+				26C74BA2D94BC577D098825CDC64BB69 /* M13Checkbox-dummy.m */,
+				A870EEBF93C41E28472D8B0696ECDC93 /* M13Checkbox-Info.plist */,
+				5569F1E8EF630F043B0248F1402DAC1A /* M13Checkbox-prefix.pch */,
+				5503F6572C582B6D6EDF21290D8A377D /* M13Checkbox-umbrella.h */,
+				029E51C7B008235F85D20C14A5E5187B /* M13Checkbox.debug.xcconfig */,
+				0F4F9DF2D0DFC6B0B06B7703AD99463C /* M13Checkbox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		59D5602E6FF743BCB5FDFA7E2CE53207 /* IGColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BC0AC9C683EAEB80B5FFEC7CD90568BA /* DefaultValues.swift */,
+				A8DA090EEF8EB8CD8A93B3FEA8DC666C /* Extension */,
+				FF1687CF5D252565DCD1E6DB503BE1CD /* Pod */,
+				FCC0E97E0EF80C1BC4BE3B5FA184197A /* Protocol */,
+				98DC6747B8AB4F2AC37614FDED5A0A73 /* Support Files */,
+				D4FD096C1CFF173E863E69F6C5CB2939 /* View */,
+			);
+			name = IGColorPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		70C59656CD97C53AEFE5750E8D0C50C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				369464E2D560E1D8403DC62F7F9F96F1 /* IGColorPicker.framework */,
+				5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */,
+				148CADF69366AEF7394A30BA206FF438 /* Pods_IGColorPicker_Example.framework */,
+				C7CDD800C7083576A6B09964F8E92816 /* Pods_IGColorPicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D5F3AE416513789B6D3DBA0EA5082E0 /* Pods-IGColorPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				69DBB375D55D608BBBCA07053439A04B /* Pods-IGColorPicker_Tests.modulemap */,
+				9E252EE52927EB5A07D59F61D6DB923F /* Pods-IGColorPicker_Tests-acknowledgements.markdown */,
+				1B3936D468BFC88B4C895D9D7593B054 /* Pods-IGColorPicker_Tests-acknowledgements.plist */,
+				16CA917E9C95CE729823C3A91F25E094 /* Pods-IGColorPicker_Tests-dummy.m */,
+				C0AFF213B9AA79693446B01AF2982573 /* Pods-IGColorPicker_Tests-Info.plist */,
+				CAB3E6107BE9AE389E39742EAD10FBCB /* Pods-IGColorPicker_Tests-umbrella.h */,
+				BEF92A8ED3DF6CE51B232204F48ABA57 /* Pods-IGColorPicker_Tests.debug.xcconfig */,
+				FD387972C9425E540A724EDCF5B9181C /* Pods-IGColorPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-IGColorPicker_Tests";
+			path = "Target Support Files/Pods-IGColorPicker_Tests";
+			sourceTree = "<group>";
+		};
+		98DC6747B8AB4F2AC37614FDED5A0A73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC42B441D03B5332466BE7D7CC0D24E2 /* IGColorPicker.modulemap */,
+				A55C5D923D4B137351E2F291867C1D43 /* IGColorPicker-dummy.m */,
+				ACDE6EBCDADC5D892E50B127EFA45AE5 /* IGColorPicker-Info.plist */,
+				BED560975B5B908D72214D36EA263EC3 /* IGColorPicker-prefix.pch */,
+				5E9D931421A3BC3972210EBCD03F2C77 /* IGColorPicker-umbrella.h */,
+				E1880F5AC89C4F82C63AD3B61C9A9BA0 /* IGColorPicker.debug.xcconfig */,
+				6019D00982FE383179F16E8E5FEE1F9D /* IGColorPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IGColorPicker";
+			sourceTree = "<group>";
+		};
+		A4C0F3CA1DBB4974112D58B346BEC7C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EACC97E0805690CF095AE0876E555621 /* M13Checkbox */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8DA090EEF8EB8CD8A93B3FEA8DC666C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF82CD4CB396157D47743C368E3C2B /* UIColor+Extension.swift */,
+			);
+			name = Extension;
+			path = IGColorPicker/Classes/Extension;
+			sourceTree = "<group>";
+		};
+		B244285E84E9AD857B3B02F397AF72A8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59D5602E6FF743BCB5FDFA7E2CE53207 /* IGColorPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B244285E84E9AD857B3B02F397AF72A8 /* Development Pods */,
+				0BB682A9E3AEC53A1F57317EAE3D32E9 /* Frameworks */,
+				A4C0F3CA1DBB4974112D58B346BEC7C9 /* Pods */,
+				70C59656CD97C53AEFE5750E8D0C50C2 /* Products */,
+				098B0AE1C7D75BC630A770F1D4FB037D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D34017AF12EE050875EBB41B5BADD5A8 /* Pods-IGColorPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				589E2AA1B379AB303429F70C88577CD6 /* Pods-IGColorPicker_Example.modulemap */,
+				44E8A3E294B09A2006BCFE6A53715D0C /* Pods-IGColorPicker_Example-acknowledgements.markdown */,
+				F7AE49AD8CE6BB7B9ABE3E2144FA1E85 /* Pods-IGColorPicker_Example-acknowledgements.plist */,
+				67BBCA0A8D95454580AF6E70F215AC5B /* Pods-IGColorPicker_Example-dummy.m */,
+				1B8BF24B33FC3BE485B3677FF1592380 /* Pods-IGColorPicker_Example-frameworks.sh */,
+				807DFB8253068B7EF0A9140826F03C8E /* Pods-IGColorPicker_Example-Info.plist */,
+				169A594DBF954A848AFE16039436C6A8 /* Pods-IGColorPicker_Example-umbrella.h */,
+				EDD9BC2A83DAC03910AFBA673EAC85C9 /* Pods-IGColorPicker_Example.debug.xcconfig */,
+				E1B20D3C421B1D262C9D2E4041F76A73 /* Pods-IGColorPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-IGColorPicker_Example";
+			path = "Target Support Files/Pods-IGColorPicker_Example";
+			sourceTree = "<group>";
+		};
+		D4FD096C1CFF173E863E69F6C5CB2939 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3787E176E15EC74C06E45B38714E35EB /* ColorPickerCell.swift */,
+				E845A393C3E5E0B4DAE5943528F52BE6 /* ColorPickerView.swift */,
+			);
+			name = View;
+			path = IGColorPicker/Classes/View;
+			sourceTree = "<group>";
+		};
+		EACC97E0805690CF095AE0876E555621 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				71CB8A47A271F44AE9A9ADF04FB334B5 /* DefaultValues.swift */,
+				4870BA1056841EBBC7D03C303F8E37B2 /* M13Checkbox.swift */,
+				3C2DA4808EE89482FFB8D266729E2D80 /* M13Checkbox+IB.swift */,
+				F189D045F24F0526DC3CC97481E3ADDD /* M13CheckboxAddRemovePathGenerator.swift */,
+				04F16785EA3D6E3DE0C61ED977DD1207 /* M13CheckboxAnimationGenerator.swift */,
+				2D70B5DAA057A480ACDD7A209C1A693A /* M13CheckboxBounceController.swift */,
+				F31BE5CE36626D19AF2FB66660940A2B /* M13CheckboxCheckPathGenerator.swift */,
+				A2DB0AD4DB24182438B7C6E276CDC744 /* M13CheckboxController.swift */,
+				0B1E5C6921520792C52CCA2DCC4153B3 /* M13CheckboxDisclosurePathGenerator.swift */,
+				6575A78D5803E324BBD169EDD38485C6 /* M13CheckboxDotController.swift */,
+				98B877590311162BC2E6C3CDD526475B /* M13CheckboxExpandController.swift */,
+				33D7FAA4595C66B207D05374A9808341 /* M13CheckboxFadeController.swift */,
+				DEE340E874CCAC8D19CC959E820C7C81 /* M13CheckboxFillController.swift */,
+				658DE99C581E3F1360DE6E1900D836EF /* M13CheckboxFlatController.swift */,
+				75D861DFFFB3E5F2F69205F4205F1C14 /* M13CheckboxGestureRecognizer.swift */,
+				F3B9539754914803037E32A5C1A991A2 /* M13CheckboxPathGenerator.swift */,
+				38C6A6AE4C2DB84789467CC3F006E297 /* M13CheckboxRadioPathGenerator.swift */,
+				2864DF132BB9C7760C900151419950F0 /* M13CheckboxSpiralController.swift */,
+				EB66DF709C1A716F112A22BF59F3A8F7 /* M13CheckboxStrokeController.swift */,
+				35727169B4910946180EC88AB462E3A5 /* Support Files */,
+			);
+			name = M13Checkbox;
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		FCC0E97E0EF80C1BC4BE3B5FA184197A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B16C2E142504895F8D5B49EAC690BA03 /* ColorPickerViewDelegate.swift */,
+				45FD9EBB9EEC23119122E3D2D8005DAA /* ColorPickerViewDelegateFlowLayout.swift */,
+			);
+			name = Protocol;
+			path = IGColorPicker/Classes/Protocol;
+			sourceTree = "<group>";
+		};
+		FF1687CF5D252565DCD1E6DB503BE1CD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6980224938332736B8D3873FF4846417 /* IGColorPicker.podspec */,
+				694EBA5CF334F1859C9418185F2E2A13 /* LICENSE */,
+				B955E723F3B550252EC087DFED8DE9F2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AEE907CA90BDDFC1A82B2689A79587F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38F13A04A0EA783D0D7ADC37273E9FB /* Pods-IGColorPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8797F1D14BD384F2ECD92D35D4CA7022 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B847A85D38B83836D07FD61D4FB98C0 /* Pods-IGColorPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B320EBEF9DB2475E89642202178FFC0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389234AA4C3D563AE56BF950C6B17C6F /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC468DF8396DD9FDC09BA0065085DD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7EA781ADBCB63C915A8FF8E829C2DD4 /* IGColorPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D8D2751C5F0C2E845398BA4D7969D44 /* IGColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C731D84ED23E702D7308581C023B6C /* Build configuration list for PBXNativeTarget "IGColorPicker" */;
+			buildPhases = (
+				EDC468DF8396DD9FDC09BA0065085DD3 /* Headers */,
+				3283427AE0EF01025BC6BCFB216CFC2C /* Sources */,
+				C7E99109E099441024B2996887E606B5 /* Frameworks */,
+				C94765F13F5D658333086C37633759A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B10CB7A11624F02350661151943530 /* PBXTargetDependency */,
+			);
+			name = IGColorPicker;
+			productName = IGColorPicker;
+			productReference = 369464E2D560E1D8403DC62F7F9F96F1 /* IGColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7005670FFE8A5571896F3EBC142995E3 /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				B320EBEF9DB2475E89642202178FFC0A /* Headers */,
+				BC5B66E5B7594F43D7D29AF5AB19E6FA /* Sources */,
+				D5AF1AE7792A9FED8A3DADD28987BAD3 /* Frameworks */,
+				E782C16D9066F80431973F2A149E0F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAC38B18658B0A63612B59F356AE15D2 /* Pods-IGColorPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B2E89BF00E0B8497C96EDA83B5F3308 /* Build configuration list for PBXNativeTarget "Pods-IGColorPicker_Example" */;
+			buildPhases = (
+				8797F1D14BD384F2ECD92D35D4CA7022 /* Headers */,
+				4456BD2D36A7DC7063AF33EECEAA1C30 /* Sources */,
+				7E4B5F585CF6979BD9E8E67C9B74E0D8 /* Frameworks */,
+				901E1943FA3DB080799F474F620F366D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36BF72A1FF845734B06104BCC96A7524 /* PBXTargetDependency */,
+				27C80500DB0E4187A67AA2998E08CE13 /* PBXTargetDependency */,
+			);
+			name = "Pods-IGColorPicker_Example";
+			productName = "Pods-IGColorPicker_Example";
+			productReference = 148CADF69366AEF7394A30BA206FF438 /* Pods_IGColorPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3C663CC98925B5D46351A5F8D5BFE52 /* Pods-IGColorPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2476822EA12909336ACCAC492AC70892 /* Build configuration list for PBXNativeTarget "Pods-IGColorPicker_Tests" */;
+			buildPhases = (
+				5AEE907CA90BDDFC1A82B2689A79587F /* Headers */,
+				755D42A2A7E947E12895EE7B7CC1AABB /* Sources */,
+				E49C54951990120B795B68569B24301D /* Frameworks */,
+				4A021890E7F901270B635528CBA32B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A148E600CB4E4CBC9AF0CF7B48F7D629 /* PBXTargetDependency */,
+			);
+			name = "Pods-IGColorPicker_Tests";
+			productName = "Pods-IGColorPicker_Tests";
+			productReference = C7CDD800C7083576A6B09964F8E92816 /* Pods_IGColorPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 70C59656CD97C53AEFE5750E8D0C50C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D8D2751C5F0C2E845398BA4D7969D44 /* IGColorPicker */,
+				7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */,
+				AAC38B18658B0A63612B59F356AE15D2 /* Pods-IGColorPicker_Example */,
+				B3C663CC98925B5D46351A5F8D5BFE52 /* Pods-IGColorPicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A021890E7F901270B635528CBA32B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901E1943FA3DB080799F474F620F366D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94765F13F5D658333086C37633759A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E782C16D9066F80431973F2A149E0F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3283427AE0EF01025BC6BCFB216CFC2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CBD2FD59A0A8C60D524A0E54B4710B /* ColorPickerCell.swift in Sources */,
+				E8727057CC5D23CA1A4B4BD2407779F6 /* ColorPickerView.swift in Sources */,
+				A8E3E836E0939AD9A937EB78BCDEDF28 /* ColorPickerViewDelegate.swift in Sources */,
+				593609FC6C449B4533AEDD4579D3E80B /* ColorPickerViewDelegateFlowLayout.swift in Sources */,
+				0008831D6E65C3D20986B68E265C0485 /* DefaultValues.swift in Sources */,
+				3E38C3DD743DEA2735A48DB40A9588A5 /* IGColorPicker-dummy.m in Sources */,
+				48362798FA6DDA0D2384DCF2818D988E /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4456BD2D36A7DC7063AF33EECEAA1C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAD6A283CE3A1F236BF439ACE4EE541 /* Pods-IGColorPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755D42A2A7E947E12895EE7B7CC1AABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B59065FC34036DD48CDD3234CE1D17D /* Pods-IGColorPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5B66E5B7594F43D7D29AF5AB19E6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B57963461A97260E22425AF06B178B /* DefaultValues.swift in Sources */,
+				A9774E979BBC7F92F5ED19D1FFECA3E2 /* M13Checkbox+IB.swift in Sources */,
+				A78876960FD123B624B5BAE90FB3D362 /* M13Checkbox-dummy.m in Sources */,
+				876F7C11134DEE7D43A8F114BE41A6B5 /* M13Checkbox.swift in Sources */,
+				A518827199E74C13A1947BD7F391EB95 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				C39EFC9FB9F2538F5AF64A49676373C4 /* M13CheckboxAnimationGenerator.swift in Sources */,
+				28E42D54764A6BB85C0B593079DCA4B9 /* M13CheckboxBounceController.swift in Sources */,
+				F0975E49C0E6E1F8D6D4B3AFFB84C0A4 /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				A631793D2A6FD4128A53441CB70E66F3 /* M13CheckboxController.swift in Sources */,
+				517B5CFF82A23982E95D55C122584389 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				7B33659609D8B21AE031463284BF6E34 /* M13CheckboxDotController.swift in Sources */,
+				22038AF267F2E16F7D57A0DAB542984A /* M13CheckboxExpandController.swift in Sources */,
+				3E223236EDD3292AE485AE55674166E2 /* M13CheckboxFadeController.swift in Sources */,
+				B18CE117A9CB1B05D8611076A7C38495 /* M13CheckboxFillController.swift in Sources */,
+				DEAB41214C1B88D8FEBFEAE2ACE73E3B /* M13CheckboxFlatController.swift in Sources */,
+				D98E62694AF71E609107DCFB81692F23 /* M13CheckboxGestureRecognizer.swift in Sources */,
+				382ED280BF265A992F3713DDC4BAD266 /* M13CheckboxPathGenerator.swift in Sources */,
+				2CB8349972F98533748831AD7DD93892 /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				C99BAA6308A8B180C77459C5C393C8A1 /* M13CheckboxSpiralController.swift in Sources */,
+				B080D882C947FA7C6CA67E47F33ADC47 /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B10CB7A11624F02350661151943530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */;
+			targetProxy = 0AB493AC80FD34D41DF03FFE3899C2B8 /* PBXContainerItemProxy */;
+		};
+		27C80500DB0E4187A67AA2998E08CE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */;
+			targetProxy = D1A0FE786CC802975A018D9A68412AB1 /* PBXContainerItemProxy */;
+		};
+		36BF72A1FF845734B06104BCC96A7524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGColorPicker;
+			target = 6D8D2751C5F0C2E845398BA4D7969D44 /* IGColorPicker */;
+			targetProxy = 52D4F03AD89F223B1A1C2968C233D3FE /* PBXContainerItemProxy */;
+		};
+		A148E600CB4E4CBC9AF0CF7B48F7D629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IGColorPicker_Example";
+			target = AAC38B18658B0A63612B59F356AE15D2 /* Pods-IGColorPicker_Example */;
+			targetProxy = D6A6C06A9D8EF7DE8AC129F941840FC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068A65F12F5223D7822CDEA34BF9D2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6019D00982FE383179F16E8E5FEE1F9D /* IGColorPicker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGColorPicker/IGColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGColorPicker/IGColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IGColorPicker/IGColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = IGColorPicker;
+				PRODUCT_NAME = IGColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A304BD4126C425028DD09192FEF947A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD9BC2A83DAC03910AFBA673EAC85C9 /* Pods-IGColorPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IGColorPicker_Example/Pods-IGColorPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IGColorPicker_Example/Pods-IGColorPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		265758632266A2E753F498BCB34A6B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4F9DF2D0DFC6B0B06B7703AD99463C /* M13Checkbox.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3ECA8F1DA4644B4325A1E8D928F1CBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1880F5AC89C4F82C63AD3B61C9A9BA0 /* IGColorPicker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGColorPicker/IGColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGColorPicker/IGColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IGColorPicker/IGColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = IGColorPicker;
+				PRODUCT_NAME = IGColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5ABA1687F1E5F94B54816A520E496D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD387972C9425E540A724EDCF5B9181C /* Pods-IGColorPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IGColorPicker_Tests/Pods-IGColorPicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IGColorPicker_Tests/Pods-IGColorPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		62087BC7043C45A7F2874C564E32D04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B20D3C421B1D262C9D2E4041F76A73 /* Pods-IGColorPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IGColorPicker_Example/Pods-IGColorPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IGColorPicker_Example/Pods-IGColorPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65C7447E37C19156E8C5AC1406124E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF92A8ED3DF6CE51B232204F48ABA57 /* Pods-IGColorPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IGColorPicker_Tests/Pods-IGColorPicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IGColorPicker_Tests/Pods-IGColorPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E1F3D358966F24610AD782F313B4C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B24B6BFD21486C2E8066A95CC07019A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029E51C7B008235F85D20C14A5E5187B /* M13Checkbox.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2476822EA12909336ACCAC492AC70892 /* Build configuration list for PBXNativeTarget "Pods-IGColorPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C7447E37C19156E8C5AC1406124E40 /* Debug */,
+				5ABA1687F1E5F94B54816A520E496D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1F3D358966F24610AD782F313B4C40 /* Debug */,
+				60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B2E89BF00E0B8497C96EDA83B5F3308 /* Build configuration list for PBXNativeTarget "Pods-IGColorPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A304BD4126C425028DD09192FEF947A /* Debug */,
+				62087BC7043C45A7F2874C564E32D04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7005670FFE8A5571896F3EBC142995E3 /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24B6BFD21486C2E8066A95CC07019A4 /* Debug */,
+				265758632266A2E753F498BCB34A6B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C731D84ED23E702D7308581C023B6C /* Build configuration list for PBXNativeTarget "IGColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECA8F1DA4644B4325A1E8D928F1CBF2 /* Debug */,
+				068A65F12F5223D7822CDEA34BF9D2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
